@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diagnóstico Financeiro</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f6f9;
+    margin:0;
+    padding:20px;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 0 15px rgba(0,0,0,.08);
+}
+
+h1{
+    color:#103b66;
+}
+
+.section{
+    margin-top:30px;
+}
+
+.section h2{
+    color:#0f5fa8;
+    border-bottom:1px solid #ddd;
+    padding-bottom:8px;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    font-weight:bold;
+}
+
+input, textarea, select{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    margin-top:5px;
+}
+
+textarea{
+    min-height:80px;
+}
+
+button{
+    margin-top:30px;
+    background:#0f5fa8;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0c4f8c;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Questionário de Planejamento Financeiro</h1>
+
+<div class="section">
+<h2>1. Informações Pessoais</h2>
+
+<label>Nome Completo</label>
+<input type="text">
+
+<label>Data de Nascimento</label>
+<input type="date">
+
+<label>Estado Civil</label>
+<select>
+<option>Solteiro(a)</option>
+<option>Casado(a)</option>
+<option>União Estável</option>
+<option>Divorciado(a)</option>
+<option>Viúvo(a)</option>
+</select>
+
+<label>Profissão</label>
+<input type="text">
+</div>
+
+<div class="section">
+<h2>2. Objetivos Financeiros</h2>
+
+<label>Quais são seus principais objetivos financeiros?</label>
+<textarea></textarea>
+
+<label>Quando deseja atingir esses objetivos?</label>
+<input type="text">
+
+<label>Qual o valor necessário para atingir esses objetivos?</label>
+<input type="number">
+</div>
+
+<div class="section">
+<h2>3. Receitas</h2>
+
+<label>Renda mensal líquida</label>
+<input type="number">
+
+<label>Outras fontes de renda</label>
+<textarea></textarea>
+</div>
+
+<div class="section">
+<h2>4. Patrimônio</h2>
+
+<label>Valor de imóveis</label>
+<input type="number">
+
+<label>Valor de veículos</label>
+<input type="number">
+
+<label>Valor dos investimentos</label>
+<input type="number">
+
+<label>Reservas financeiras</label>
+<input type="number">
+</div>
+
+<div class="section">
+<h2>5. Dívidas</h2>
+
+<label>Possui financiamentos?</label>
+<textarea></textarea>
+
+<label>Possui empréstimos?</label>
+<textarea></textarea>
+
+<label>Parcelamentos relevantes?</label>
+<textarea></textarea>
+</div>
+
+<div class="section">
+<h2>6. Investimentos</h2>
+
+<label>Onde você investe atualmente?</label>
+<textarea></textarea>
+
+<label>Qual sua experiência com investimentos?</label>
+<select>
+<option>Iniciante</option>
+<option>Intermediário</option>
+<option>Avançado</option>
+</select>
+
+<label>Perfil de risco</label>
+<select>
+<option>Conservador</option>
+<option>Moderado</option>
+<option>Agressivo</option>
+</select>
+</div>
+
+<div class="section">
+<h2>7. Aposentadoria</h2>
+
+<label>Com qual idade pretende se aposentar?</label>
+<input type="number">
+
+<label>Qual renda mensal deseja na aposentadoria?</label>
+<input type="number">
+</div>
+
+<div class="section">
+<h2>8. Seguros e Proteção</h2>
+
+<label>Possui seguro de vida?</label>
+<select>
+<option>Sim</option>
+<option>Não</option>
+</select>
+
+<label>Possui plano de saúde?</label>
+<select>
+<option>Sim</option>
+<option>Não</option>
+</select>
+</div>
+
+<div class="section">
+<h2>9. Observações</h2>
+
+<label>Informações adicionais</label>
+<textarea></textarea>
+</div>
+
+<button type="submit">
+Enviar Questionário
+</button>
+
+</div>
+
+</body>
+</html>
